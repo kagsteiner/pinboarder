@@ -5,10 +5,14 @@ Over the years my pinboard.in account has become messy. The python scripts here 
 
 *don't look at code quality*, I have not coded a single line; this was totally vibe coded with gemini cli. My handwritten code would, of course, be flawless. But I would never find time to do this hand-coded. The kind of stuff you get done with AIs because they are not important enough to you to spend real time on.
 
-**Prerequisites**
+**Usage**
 1. go to pinboard.in and copy your personal pinboard token into the clipboard.
 2. create a .env file that contains
 PINBOARD_TOKEN=<your token>
+3. run the script of your choice, currently only 
+python markdead.py
+4. wait - for my 800 bookmarks it takes 15 minutes or so.
+5. enjoy the freshly tagged bookmarks, search for !dead to see only living bookmarks.
 
 **markdead.py**
 
